@@ -1,9 +1,25 @@
 /* Add styling for your page here */
 
 .App {
-
-}
-
-.BakeryItem {
-  
+    display: flex;
+    h1{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h2{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .bakery{
+        width: 70%;
+        padding: 2rem;
+    }
+    .bakery-content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .cart{
+        position: sticky;
+        width: 30%;
+        padding: 2rem;
+    }
 }
